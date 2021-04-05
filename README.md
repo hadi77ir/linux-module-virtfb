@@ -1,6 +1,6 @@
 # Linux Virtual Framebuffer Device Driver
 
-This is the `drivers/video/fbdev/vfb.c` kernel module, turned into a kernel module.
+This is the `drivers/video/fbdev/vfb.c` turned into a kernel module.
 
 This is a 'virtual' frame buffer device. It operates on a chunk of unswappable kernel memory instead of on the memory of a graphics board. This means you cannot see any output sent to this frame buffer device without reading it using tools like `ffplay`, while it does consume precious memory. The main use of this frame buffer device is testing and debugging the frame buffer subsystem and improving Embedded Linux application development.
 
